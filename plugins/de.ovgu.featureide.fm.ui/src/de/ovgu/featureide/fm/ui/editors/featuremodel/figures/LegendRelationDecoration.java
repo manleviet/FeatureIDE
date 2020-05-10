@@ -33,6 +33,7 @@ public class LegendRelationDecoration extends RelationDecoration {
 
 	public LegendRelationDecoration(boolean fill, Point point) {
 		super(fill, null);
+		setSize(TARGET_ANCHOR_DIAMETER_LEGEND, TARGET_ANCHOR_DIAMETER_LEGEND);
 		this.point = point;
 	}
 
